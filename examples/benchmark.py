@@ -7,10 +7,10 @@ import timeit
 # scaled down version of your image and then running face encodings on the the full size image.
 
 TEST_IMAGES = [
-    "obama-240p.jpg",
-    "obama-480p.jpg",
-    "obama-720p.jpg",
-    "obama-1080p.jpg"
+    "/home/raime/Documentos/Repositórios/face_recognition/examples/obama-240p.jpg",
+    "/home/raime/Documentos/Repositórios/face_recognition/examples/obama-480p.jpg",
+    "/home/raime/Documentos/Repositórios/face_recognition/examples/obama-720p.jpg",
+    "/home/raime/Documentos/Repositórios/face_recognition/examples/obama-1080p.jpg"
 ]
 
 

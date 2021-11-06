@@ -2,7 +2,7 @@ from PIL import Image
 import face_recognition
 
 # Load the jpg file into a numpy array
-image = face_recognition.load_image_file("biden.jpg")
+image = face_recognition.load_image_file("/home/raime/Documentos/Repositórios/face_recognition/examples/biden.jpg")
 
 # Find all the faces in the image using a pre-trained convolutional neural network.
 # This method is more accurate than the default HOG model, but it's slower
